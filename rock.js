@@ -1,4 +1,3 @@
-console.log("Hello User");
 
 window.onload = function() {
 
@@ -84,7 +83,7 @@ window.onload = function() {
     
     function game(userChoice) {
        
-        if (compScore == '3') {
+        if (compScore == '5') {
             (userScore > compScore) ? alert(`Excellent! You Won!!
             \n ${userScore} : ${compScore}\n Refresh to continue! `) : (userScore == compScore) ?  
              alert(`Game Over!! \n Draw\n ${userScore} : ${compScore}\n refresh to continue`):
